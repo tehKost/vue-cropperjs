@@ -25,7 +25,8 @@ var CropperComponent = _vue2.default.extend({
             attrs: {
                 src: this.src,
                 alt: this.alt || 'image',
-                style: 'max-width: 100%'
+                style: 'max-width: 100%',
+                crossorigin: 'anonymous'
             },
             style: this.imgStyle
         })]);
